@@ -1,4 +1,4 @@
-let Slack = require('slack-client')
+let Slack = require('./slack-wrapper')
 
 import onOpen from './onOpen'
 import onMessage from './onMessage'
